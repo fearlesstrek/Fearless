@@ -1,0 +1,59 @@
+<com.example.fearless.widget.MyScrollowView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/title"
+        android:orientation="vertical"
+        tools:context="com.example.fearless.user.loginfragment.SubmitFragment">
+        <EditText
+            android:id="@+id/user_login_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/set_bordre"
+            android:hint="请输入用户名"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp" />
+
+        <EditText
+            android:id="@+id/user_login_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/set_bordre"
+            android:hint="请输入密码"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:password="true"
+            android:paddingTop="10dp" />
+
+
+
+        <Button
+            android:id="@+id/submit_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_select"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="注    册"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xx_large_sp" />
+    </LinearLayout>
+</com.example.fearless.widget.MyScrollowView>

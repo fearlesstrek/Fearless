@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">与你相约</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_first">Hello First fragment</string>
+    <string name="hello_blank_fragment_second">Hello second fragment</string>
+    <string name="hello_blank_fragment_third">Hello Third fragment</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_four">Hello Four fragment</string>
+    <string name="title_activity_bind_email">BindEmailActivity</string>
+    <string name="title_activity_updata_pwd">UpdataPwdActivity</string>
+    <string name="title_activity_change_add">AddCostActivity</string>
+    <string name="invite_detail_activity">InviteDetailActivity</string>
+    <string name="add_invite_activity">AddInviteActivity</string>
+    <string name="find_invite_member_list_activity">已参与会员列表</string>
+    <string name="find_invite_time_list_activity">选择邀约活动时间</string>
+    <string name="find_admin_member_cost_activity">会费充值管理</string>
+    <string name="find_set_time_activity">设置邀约活动时间</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_user_main">UserMainActivity</string>
+    <string name="title_activity_user_login">UserLoginActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- XlistView start-->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">上拉加载更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载...</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">正在加载...</string>
+    <string name="title_activity_cost_admin">CostAdminActivity</string>
+</resources>

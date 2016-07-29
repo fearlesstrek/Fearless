@@ -1,0 +1,92 @@
+<com.example.fearless.widget.MyScrollowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title"
+    android:scrollbars="none">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.fearless.user.loginfragment.LoginFragment">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/title" />
+
+
+
+        <EditText
+            android:id="@+id/user_login_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/set_bordre"
+            android:hint="账号"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp" />
+
+        <EditText
+            android:id="@+id/user_login_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/set_bordre"
+            android:hint="密码"
+            android:password="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_select"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="登    录"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xx_large_sp" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/user_forget_pwd"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:background="@drawable/set_bordre"-->
+            <!--android:padding="5dp"-->
+            <!--android:text="忘记密码?" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="第三方账号登录"-->
+            <!--android:textSize="@dimen/large_sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/baidu_login"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:drawableTop="@drawable/baidu"-->
+            <!--android:text="百度登录" />-->
+
+    </LinearLayout>
+</com.example.fearless.widget.MyScrollowView>

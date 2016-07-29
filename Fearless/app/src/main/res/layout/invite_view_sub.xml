@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.example.fearless.widget.MyScrollowView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/title"
+        android:fadingEdge="none"
+        android:scrollbars="none">
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yicanyu_title"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/play_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-15dp" />
+
+        <RelativeLayout
+            android:id="@+id/rel_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/invite_id_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="id"
+                android:textColor="@color/user_register_reset"
+                android:textSize="@dimen/x_large_sp" />
+
+            <TextView
+                android:id="@+id/invite_name_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/invite_id_sub"
+                android:singleLine="true"
+                android:text="邀约活动名称"
+                android:textColor="@color/user_register_reset"
+                android:textSize="@dimen/large_sp" />
+
+            <TextView
+                android:id="@+id/invite_detail_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/text_blue_border"
+                android:gravity="center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="查看详情"
+                android:textColor="@color/order_status_state"
+                android:textSize="@dimen/medium_sp" />
+
+            <TextView
+                android:id="@+id/limit_num_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/invite_place_sub"
+                android:layout_marginRight="20dp"
+                android:text="上限人数"
+                android:textColor="@color/teacher_list_select_txt"
+                android:textSize="@dimen/normal_sp" />
+
+            <TextView
+                android:id="@+id/invite_time_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/invite_name_sub"
+                android:layout_below="@id/invite_name_sub"
+                android:layout_marginTop="5dp"
+                android:text="邀约活动时间"
+                android:textColor="@color/teacher_list_select_txt"
+                android:textSize="@dimen/normal_sp" />
+
+            <TextView
+                android:id="@+id/invite_place_sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/invite_name_sub"
+                android:layout_below="@id/invite_time_sub"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="marquee"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingBottom="5dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="邀约活动地点"
+                android:textColor="@color/user_register_reset"
+                android:textSize="@dimen/normal_sp" />
+
+            <TextView
+                android:id="@+id/invite_avg_money_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/invite_place_sub"
+                android:layout_marginLeft="30dp"
+                android:text="人均费用"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/normal_sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/course_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rel_right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/gray_border" />
+
+        <TextView
+            android:id="@+id/exit_invite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/course_view"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_blue_border"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="退出邀约"
+            android:textColor="@color/news_item_content_color"
+            android:textSize="@dimen/medium_sp" />
+        <TextView
+            android:id="@+id/cost_for_invite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/course_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_blue_border"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="统一扣费"
+            android:textColor="@color/order_status_state"
+            android:textSize="@dimen/medium_sp" />
+        <TextView
+            android:id="@+id/end_invite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/course_view"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_blue_border"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="删除邀约"
+            android:textColor="@color/refund_state_color"
+            android:textSize="@dimen/medium_sp" />
+    </RelativeLayout>
+</com.example.fearless.widget.MyScrollowView>
+
+</RelativeLayout>

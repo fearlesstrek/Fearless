@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:id="@+id/top_line"
+        android:background="@color/gray_border"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/top_line"
+        android:id="@+id/top_background"
+        android:background="@color/title"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/top_background"
+        android:id="@+id/rel_top"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/play_video"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-15dp"
+            />
+        <RelativeLayout
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel_right">
+            <TextView android:id="@+id/invite_id"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="id"
+                android:textSize="@dimen/x_large_sp"
+                android:textColor="@color/user_register_reset"
+                />
+            <TextView android:id="@+id/invite_name"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/invite_id"
+                android:text="邀约活动名称"
+                android:singleLine="true"
+                android:textSize="@dimen/large_sp"
+                android:textColor="@color/user_register_reset"
+                />
+            <TextView
+                android:id="@+id/limit_num"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="上限人数"
+                android:textColor="@color/teacher_list_select_txt"
+                android:layout_alignBaseline="@id/invite_place"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:textSize="@dimen/normal_sp"
+                />
+            <TextView android:id="@+id/invite_time"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/invite_name"
+                android:textSize="@dimen/normal_sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/teacher_list_select_txt"
+                android:text="邀约活动时间"
+                android:layout_alignLeft="@id/invite_name"
+                />
+            <TextView android:id="@+id/invite_place"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:layout_alignLeft="@id/invite_name"
+                android:layout_marginRight="40dp"
+                android:layout_below="@id/invite_time"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="10dp"
+                android:text="邀约活动地点"
+                android:ellipsize="marquee"
+                android:textColor="@color/user_register_reset"
+                android:textSize="@dimen/normal_sp"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+                />
+
+
+
+            <ImageView
+                android:id="@+id/iv_experience"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/course_view"
+        android:background="@color/gray_border"
+        android:layout_below="@+id/rel_top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/course_view"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/invite_total_cost"
+        android:textSize="@dimen/normal_sp"
+        android:textColor="@color/send_to_phone_line"
+        android:text="."
+        android:paddingBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/invite_avg_money"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/course_view"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="@dimen/normal_sp"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/blue"
+        android:text="人均费用"
+        android:paddingBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/invite_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/course_view"
+        android:text="查看详情"
+        android:textColor="@color/order_status_state"
+        android:textSize="@dimen/medium_sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/text_blue_border"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+</RelativeLayout>

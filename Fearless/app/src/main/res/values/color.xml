@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#00923f</color>
+    
+    <color name="wall">#EC452E</color>
+    
+     <color name="course_list_value_color">#333333</color>
+     <color name="course_list_key_color">#666666</color>  
+      <color name="order_status_state">#47abef</color>  
+      <color name="my_wallet_line_color">#aaaaaa</color>
+      
+     <color name="main_activity_color_normal">#868d94</color>
+     <color name="main_activity_color_selected">#1199d7</color>
+     
+    <!-- 灰色 -->
+    <color name="gray_border">#dddddd</color>
+    <!-- 红色 -->
+    <color name="red">#ff0101</color>
+    <!-- 橙色 -->
+    <color name="classify_checked">#d8954d</color>
+     <!-- 橙色2 -->
+    <color name="list_selected_color">#ff9900</color>
+    <!-- 橙色 -->
+    <color name="list_guide_line_color">#ff9f0f</color>
+	<!-- 线条的灰色 -->
+	<color name="line_color">#D7D7D7</color>
+	<!-- 教师ViewPage滑动线条的颜色 -->
+	<color name="view_page_line">#D2691E</color>
+	<!-- 教师列表机构颜色 -->
+	<color name="teacher_list_institutions">#1199d7</color>
+	<!-- 选项颜色 -->
+	<color name="teacher_list_options">#3d3d3d</color>
+	<!-- 确定背景颜色 -->
+	<color name="teacher_list_yes_btn">#343434</color>
+	<!-- 选项选中颜色 -->
+	<color name="teacher_list_options_select">#4e4e4e</color>
+	<!-- 默认  评分  文字选中颜色 -->
+	<color name="teacher_list_select_txt">#ff9900</color>
+    <color name="teacher_detail_two_background">#f3f3f3</color>
+    <color name="teacher_detail_course_txt_num">#ffa126</color>
+    <color name="teacher_detail_view_background">#F5F5F5</color>
+    <color name="teacher_detail_txt_background">#42A4E7</color>
+    <!-- 滑动的线条的颜色 -->
+    <color name="bg_title">#FF9900</color>
+    <color name="view_back">#aaaaaa</color>
+    <color name="mouth_back">#7c7c7c</color>
+    
+    <color name="bank_add_head">#F0F0F0</color>
+    <color name="bank_add_buttom">#fafafa</color>
+    <!-- 筛选列表 筛选的文字颜色 -->
+    <color name="option">#a5a5a5</color>
+    <!-- 我的联系人 左边布局背景色 -->
+    <color name="contact_left">#F8F8F9</color>
+    <color name="dayblue">#274e5e</color>
+    <color name="title">#F6F6F6</color>
+    <color name="order_buttom">#EAEDF1</color>
+    <color name="text_hint_color">#dfdfe0</color>
+    <color name="user_background">#f6f6f9</color>
+    <color name="user_button_color_normal">#ff9900</color>
+    <color name="go_to_pay_selected">#ff8500</color>
+    <color name="user_button_color_selected">#ff8600</color>
+    <color name="user_register_reset">#333333</color>
+    <color name="user_split_line">#e6e6e7</color>
+    
+    <color name="me_fragment_text_color">#262626</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <!-- 背景颜色 -->
+	<color name="institution_backgroud">#F7F7F7</color>
+	<!-- 标题背景色 -->
+	<color name="title_backgroud">#1D4456</color>
+	<color name="link_text_color">#FFA834</color>
+	
+	<color name="news_item_content_color">#474747</color>
+	<color name="news_item_time_color">#858585</color>
+	
+	<color name="course_list_detail_key">#858585</color>
+	
+    <color name="course_list_detail_course_table_background">#DEDEDE</color>
+    <color name="course_total_price_backgroud">#ff9900</color>
+    <color name="course_list_detail_course_table_time">#999999</color>
+    <color name="course_background_color">#f5f5f5</color>
+    <color name="course_detail_btn_background_color">#f1f1f1</color>
+    <color name="course_close_back">#E5E3E2</color>
+    <color name="course_list_back">#F2F2F2</color>
+    <color name="mycourse_shap">#ECF8F7</color>
+    
+    <color name="bluetxtcolor">#82C6F4</color>
+    
+    <color name="translucence">#a4000000</color>
+    <color name="translucent">#00000000</color>
+    
+    <color name="blue_button_color_normal">#1199d7</color>
+    <color name="blue_button_color_selected">#0e8ad1</color>
+    
+    <color name="orange_button_color_normal">#ff8600</color>
+    <color name="orange_button_color_selected">#ff6f00</color>
+
+	<color name="activity_pay_way_key">#5d5d5d</color>
+    <color name="activity_pay_way_value">#6c6c76</color>
+    <color name="gray_item">#eeeeee</color>
+    <color name="pay_success_contact">#b8b8b8</color>
+    <color name="home_fragment_edittext_color">#dddcdc</color>
+    
+    <color name="logout_button_color_normal">#df2828</color>
+    <color name="logout_button_color_selected">#d51c1c</color>
+    
+    <color name="button_reset_normal">#e3e3e3</color>
+    <color name="button_reset_selected">#d5d5d5</color>
+    
+    <color name="send_message_to_classmate">#dbdbdb</color>
+    
+    <color name="send_to_phone_soid">#ECECEC</color>
+    <color name="send_to_phone_line">#999999</color>
+    
+    <color name="search_line_color">#CECECE</color>
+    <color name="news_reply_line_color">#cccccc</color>
+    <color name="news_reply_title_textview_background">#f6f6f6</color>
+    
+    <color name="news_delete_red_color">#fb2226</color>
+    
+    <color name="mycouse_blue">#2F98E0</color>
+    
+    <color name="map_ye">#FB9700</color>
+    
+    
+    <color name="course_btn">#FF670D</color>
+    
+    <color name="btn_gray_normal">#c0c0c0</color>
+     <color name="top_bar_normal_bg">#4ebcd3</color>
+     <color name="gray_normal">#666667</color>
+     <color name="bottom_text_color_normal">#ffffff</color>
+     
+     <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    
+     <color name="btn_gray_pressed_status">#b5b5b6</color>
+     <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="error_item_color">#F6EBE6</color>
+
+    <color name="guide_bg">#fdb935</color>
+     
+
+    <!-- 退款的橘红色 -->
+    <color name="refund_state_color">#FF6600</color>
+    <!-- 退款流程圆点 -->
+    <color name="refund_point">#1D4456</color>
+
+    <color name="proback">#E5E4E4</color>
+
+    <color name="line_gray">#D3D3D3</color>
+
+</resources>

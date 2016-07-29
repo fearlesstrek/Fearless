@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title"
+    >
+
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/three"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@null"-->
+            <!--android:padding="10dip"-->
+            <!--android:drawableTop="@drawable/home_selector"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="首页"-->
+            <!--android:textSize="14sp" />-->
+
+
+        <RadioButton
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:text="已参与"
+            android:padding="10dip"
+            android:textSize="14sp"
+            android:drawableTop="@drawable/home_page_selector" />
+
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:text="首 页"
+            android:padding="10dip"
+            android:textSize="14sp"
+            android:drawableTop="@drawable/home_selector" />
+
+        <RadioButton
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:padding="10dip"
+            android:gravity="center_horizontal"
+            android:text="我"
+            android:textSize="14sp"
+            android:drawableTop="@drawable/home_user_selector" />
+
+    </RadioGroup>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fl_content"
+        android:layout_above="@id/group"
+        >
+
+    </FrameLayout>
+    <ImageView
+        android:layout_below="@+id/fl_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_border"
+        />
+
+
+</RelativeLayout>

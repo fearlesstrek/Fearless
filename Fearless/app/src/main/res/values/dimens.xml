@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- TextSize start -->
+    <dimen name="min_sp">12sp</dimen>
+    <dimen name="normal_sp">14sp</dimen>
+    <dimen name="medium_sp">16sp</dimen>
+    <dimen name="large_sp">18sp</dimen>
+    <dimen name="x_large_sp">20sp</dimen>
+    <dimen name="xx_large_sp">22sp</dimen>
+    <dimen name="xxx_large_sp">26sp</dimen>
+    <dimen name="gray_size">1dp</dimen>
+    <!-- TextSize end -->
+    
+     <!-- Common start -->
+    <dimen name="top_back_imageview_margin_left">15dp</dimen>
+    <dimen name="more_imageview_margin_left">8dp</dimen>
+    <dimen name="top_edit_text_height">30dp</dimen>
+    <dimen name="top_edit_text_width">200dp</dimen>
+    <dimen name="top_edit_text_margin_left">15dp</dimen>
+    <dimen name="top_edit_text_margin_right">15dp</dimen>
+    <dimen name="top_guide_height">40dp</dimen>
+    <dimen name="top_split_line_width">1dp</dimen>
+     <!-- Common end -->
+     
+     
+    <!-- MainActivity start -->
+    <dimen name="main_activity_textview_margin_top">8dp</dimen>
+    <dimen name="main_activity_anim_imageview">2dp</dimen>
+    <!-- MainActivity end -->
+    
+    
+    <dimen name="user_split_line_height">0.5dp</dimen>
+    <dimen name="back_image_view_padding">10dp</dimen>
+    <!-- LoginActivity start -->
+    
+    <dimen name="login_quit_margin_left">5dp</dimen>
+    <dimen name="login_content_margin">10dp</dimen>
+    <dimen name="login_input_margin_top">10dp</dimen>
+    <dimen name="login_button_margin_top">20dp</dimen>
+    <dimen name="login_button_height">50dp</dimen>
+    <dimen name="login_title_height">45dp</dimen>
+    <dimen name="login_input_height">50dp</dimen>
+    <dimen name="login_input_padding_left">15dp</dimen>
+    <!-- LoginActivity end -->
+    
+    <!-- RegisterActivity start -->
+    <dimen name="register_content_margin">10dp</dimen>
+    <dimen name="register_input_margin_top">10dp</dimen>
+    <dimen name="register_button_margin_top">20dp</dimen>
+    <dimen name="register_button_height">50dp</dimen>
+    <dimen name="register_title_height">50dp</dimen>
+    <dimen name="register_input_height">50dp</dimen>
+    <dimen name="register_input_padding_left">5dp</dimen>
+    <dimen name="register_textview_width">80dp</dimen>
+    <dimen name="register_get_code_padding">3dp</dimen>
+    <!-- RegisterActivity end -->
+    
+     <!-- SeekPasswordActivity start -->
+    <dimen name="seek_password_content_margin">15dp</dimen>
+    <dimen name="seek_password_input_margin_top">15dp</dimen>
+    <dimen name="seek_password_button_margin_top">20dp</dimen>
+    <dimen name="seek_password_button_height">50dp</dimen>
+    <dimen name="seek_password_title_height">50dp</dimen>
+    <dimen name="seek_password_input_height">50dp</dimen>
+    <dimen name="seek_password_input_padding_left">5dp</dimen>
+    <dimen name="seek_password_textview_width">80dp</dimen>
+    <dimen name="seek_password_get_code_padding">3dp</dimen>
+    <!-- SeekPasswordActivity end -->
+    
+    <!-- Teacher_List start -->
+    <dimen name="teacher_list_select_height">35dp</dimen>
+    <dimen name="teacher_list_institutions_padding">2dp</dimen>
+    <dimen name="teacher_list_select_margin_buttom_sorting">2dp</dimen>
+    <dimen name="teacher_list_view_width">1dp</dimen>
+    <dimen name="teacher_list_adapter_screening_margin_right">10dp</dimen>
+    <dimen name="teacher_list_firstNum_margin_left">10dp</dimen>
+    <dimen name="teacher_list_adapter_view_height">0.5dp</dimen>
+    <dimen name="teacher_list_adapter_relPadding">10dp</dimen>
+    <dimen name="teacher_list_adapter_length_right_margin_left">10dp</dimen>
+    <dimen name="teacher_list_adapter_length_right_margin_top">8dp</dimen>
+    <!-- Teacher_List end -->
+
+    <!-- MeFragment start -->
+    <dimen name="me_fragment_margin">10dp</dimen>
+    <dimen name="me_fragment_margin_top">20dp</dimen>
+    <dimen name="me_fragment_picture_height_width">60dp</dimen>
+    <dimen name="me_fragment_margin_bottom">30dp</dimen>
+    <!-- MeFragment end -->
+    
+    <!-- Course start -->
+     <dimen name="course_list_item_picture_height">140dp</dimen>
+     <dimen name="course_list_item_price_width">50dp</dimen>
+     <dimen name="course_list_item_price_height">30dp</dimen>
+     <dimen name="course_list_item_teacher_icon_width_heith">60dp</dimen>
+     <dimen name="course_list_item_teacher_icon_margin_right">20dp</dimen>
+     <dimen name="course_list_item_teacher_icon_margin_top">-30dp</dimen>
+     <dimen name="course_list_item_textview_margin_left_right">15dp</dimen>
+     <dimen name="course_list_item_textview_margin_top">10dp</dimen>
+    <!-- Course end -->
+    
+    
+      <dimen name="user_center_item_height">60dp</dimen>
+      <dimen name="user_center_item_margin_top">10dp</dimen>
+      <dimen name="user_center_item_image_w_h">40dp</dimen>
+      
+      
+      <dimen name="margin_chat_activity">5dp</dimen>
+      <dimen name="size_avatar">50dp</dimen>
+      <dimen name="height_top_bar">46dp</dimen>
+    <dimen name="padding_search_bar">5dp</dimen>
+    <dimen name="height_row_weixin">59dp</dimen>
+    
+    <dimen name="field_textsize">14sp</dimen>
+    <dimen name="field_margin_right">5dp</dimen>
+    <dimen name="call_button_padding_vertical">10dp</dimen>
+    <dimen name="call_button_padding_left">25dp</dimen>
+    <dimen name="call_button_padding_right">25dp</dimen>
+    <dimen name="sidebar_text_size">10dp</dimen>
+    
+     <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="backbtn_width">48dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

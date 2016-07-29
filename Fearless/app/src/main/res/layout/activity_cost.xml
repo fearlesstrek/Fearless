@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_title_height"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/org_data_title"
+            android:textColor="@color/black"
+            android:text="会费详情"
+            android:textSize="@dimen/xx_large_sp"
+            />
+        <com.example.fearless.widget.BaseImageView
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/backbtn_width"
+            android:scaleType="centerInside"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/btn_back"
+            android:src="@drawable/nav_black_back"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_border"/>
+
+    <com.example.fearless.widget.XListView
+        android:id="@+id/cost_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        />
+</LinearLayout>

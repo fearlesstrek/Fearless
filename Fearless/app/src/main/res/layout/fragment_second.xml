@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/title"
+    android:orientation="vertical"
+    tools:context="com.example.fearless.meet.ui.SecondFragment">
+
+    <RelativeLayout
+        android:id="@+id/yicanyu_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="已参与"
+            android:textColor="@color/black"
+            android:textSize="@dimen/xxx_large_sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_border" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yicanyu_title"
+        android:background="@color/white">
+
+        <ViewStub
+            android:id="@+id/third_invite_viewsub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout="@layout/invite_view_sub" />
+    </RelativeLayout>
+</LinearLayout>

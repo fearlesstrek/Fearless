@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:shape="rectangle"
+    >
+    <!-- 设置内部框体颜色-->
+    <solid
+        android:color="@color/white"
+        />
+    <!-- 设置四边的厚度-->
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/gray_border"
+        />
+    <!-- 设置内部包含的TextView的内部占据大小-->
+    <corners
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp"
+        />
+</shape>
